@@ -14,3 +14,5 @@ VALUES
 (2,'Sakshi','987654321','Chennai,India','pass456');
 
 SELECT name, phone FROM users;
+SELECT id, address, PASSWORD
+FROM users;
