@@ -13,4 +13,4 @@ VALUES
 (1,'Gaurav','123456789','Mumbai,India','pass134'),
 (2,'Sakshi','987654321','Chennai,India','pass456');
 
-SELECT name, phone FROM users;
+SELECT name, phone FROM users where name is not NULL;
